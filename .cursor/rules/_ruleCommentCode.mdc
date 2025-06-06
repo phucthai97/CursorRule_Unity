@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+1. Read and understand the code, function, script and write comments in Vietnamese as if you were explaining to a junior, paying attention to:
+- The function of the script.
+- The function of the functions, including opening and closing the <summary> tag and the parameters passed in.
+- The meaning of the variables declared in the script.

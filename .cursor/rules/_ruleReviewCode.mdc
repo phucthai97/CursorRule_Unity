@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+1. Code Logic Check:
+Evaluate the correctness of the implemented logic. Does the code perform the intended function accurately?
+Identify potential logic errors, unhandled edge cases, or scenarios that could lead to unexpected behavior in the game.
+Ensure the code interacts correctly with other Unity components (e.g., lifecycle methods like Awake, Start, Update, FixedUpdate, LateUpdate, collision handling, input...).
+
+2. Performance & Memory Management:
+Performance Analysis: Identify code sections that might strain the CPU or GPU, especially repetitive operations within Update() or frequently called functions.
+Check for Memory Leaks: Look for issues related to object creation/destruction, incorrect use of delegates/events (not unsubscribing), Coroutines, Dotween Animation (Sequence, Tween) not stopping, or resources not being properly released.
+Suggest methods for optimizing performance and reducing memory usage (e.g., using Object Pooling, caching references, optimizing algorithms, avoiding unnecessary memory allocation in hot loops).
+
+3. Naming Conventions:
+Evaluate the naming of variables, functions (methods), classes, and properties.
+Ensure names are clear, understandable, accurately describe their purpose, and adhere to common naming conventions in C# and the Unity community (e.g., PascalCase for class/method/property, camelCase for local variables, underscore prefix for private fields...).
+
+4. Redundant & Unnecessary Code:
+Identify variables, functions, or code blocks that are no longer used or are commented out without clear reasons.

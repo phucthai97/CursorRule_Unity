@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+1. Focus on prioritizing the following order: performance, clean code, reducing GC Allocation, optimizing CPU usage, improving load time.
+
+2. Naming Convention Rule:
+- Public instance variables in Unity should follow PascalCase (capitalizing the first letter of each word) and are typically used as properties with getters and setters to encapsulate private variables within a script. Example: public float Speed { get { return speed; } set { speed = value; }}
+- Private variables - within a script: Use _camelCase. Start with an underscore () followed by camelCase. Example: [SerializeField] private GameObject _enemyPrefab;
+- Local variables - within functions/methods or parameters: Use camelCase. No special prefix. Example: void CalculateDamage() { float totalDamage = baseDamage * multiplier; ... }
+- Static variables: Use PascalCase. Example: public static GameManager Inst;
+- Constants: Use all uppercase letters, with underscores () to connect words. Example: public const int MAX_PLAYER_COUNT = 4;
+- Functions/Methods: Use PascalCase.
+- For functions returning a boolean value (true/false), typically start with Is, Has, Can, or Should. Example: IsGameOver(), HasWeapon(), CanJump()
+

@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+1. Build a script design system for mobile games according to the requirements with the following criteria:
+- Describe the system structure in a diagram (the diagram can be described using text characters, text)
+- In order of priority: optimized performance for mobile games > clean code > easy to extend > simple, easy to use > ...
+- Give examples of how to use it

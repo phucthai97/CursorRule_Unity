@@ -1,0 +1,7 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+- Apply DotWeen to animations.
+- Use Tween and Sequence from DotWeen library to manage animations. Control their lifecycle to avoid leaks or errors due to sudden stops

@@ -1,0 +1,15 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+1. Explain the meaning and operational structure of the code from general to specific:
+- What is the general function of the script? Operational structure.
+- Code flow
+- main methods
+- Advantages, disadvantages (if any)
+- Notes on certain points (if any)
+- How to use, with examples
+
+2. Explain as if talking to a Junior programmer.
+3. Utilize font (size, bold, italic), headers, and icons to make the content clearer and more readable.
